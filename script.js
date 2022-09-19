@@ -8,6 +8,7 @@ if (num2 != 0 && num2 != NaN) {
         if (num1 != 0 && num1 != NaN) {
          result = num1 ** num2;
          alert(result)
+         break;
         }
      }
     
@@ -30,6 +31,14 @@ for (let i = 1; i > 0; i++) {
     console.log(num1);
 }
 } */
+let str = +prompt('Insert number');
+let step = prompt('Insert step');
+let symbol = prompt('Insert symbol')
+
+for (let i=1, str=''; i<=10; i++) {
+    str += step;
+    console.log(str + symbol);
+    }
 
 
 
